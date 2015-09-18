@@ -424,7 +424,7 @@ A better approach is to be explicit about the meaning of the double (new speed o
 	change_speed(23m/10s);	// meters per second
 
 We could have accepted a plain (unit-less) `double` as a delta, but that would have been error-prone.
-If we wanted both absopute speed and deltas, we would have defined a `Delta` type.
+If we wanted both absolute speed and deltas, we would have defined a `Delta` type.
 	
 **Enforcement**: very hard in general.
 
